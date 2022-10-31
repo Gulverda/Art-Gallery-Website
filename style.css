@@ -1,0 +1,483 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+.rec1{
+    display: flex;
+    position: absolute;
+    width: 450px;
+    height: 799px;
+    margin-left: -720px;
+    background-color: #151515;
+}
+.img1{
+    display: flex;
+    position: absolute;
+    margin-left: -552px;
+    margin-top: 189px;
+}
+.img2{
+    display: flex;
+    position: absolute;
+    margin-left: -555px;
+    margin-top: 189px;
+}
+.rec2{
+    display: flex;
+    position: absolute;
+    width: 450px;
+    height: 799px;
+    margin-left: -270px;
+}
+.rec3{
+    position: absolute;
+    visibility: hidden;
+}
+.btn .btn1{
+    display: flex;
+    position: absolute;
+    background: #151515;
+    width: 204px;
+    height: 72px;
+    margin-left: 205px;
+    margin-top: 414px;
+    cursor: pointer;
+}
+.btn .btn1:hover{
+    background-color: #D5966C;
+}
+.btn .btn2:hover{
+    background-color: #151515;
+}
+.btn .btn1 a{
+    display: flex;
+    position: absolute;
+    font-family: 'Big Shoulders Display';
+    margin-top: 24px;
+    margin-left: 32px;
+    letter-spacing: 3.63636px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+.btn2{
+    display: flex;
+    position: absolute;
+    width: 56px;
+    height: 72px;
+    background: #D5966C;
+    margin-left: 400px;
+    margin-top: 414px;
+    cursor: pointer;
+}
+.btn2 img{
+    width: 8px;
+    height: 24px;
+    color: #fff;
+    margin-left: 24px;
+    margin-top: 24px;
+}
+.head p{
+    display: flex;
+    position: absolute;
+    height: 160px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #444444;
+    margin-left: 205px;
+    margin-top: 190px;
+    width: 350px;
+    height: 160px;
+}
+.mid h1{
+    display: flex;
+    position: absolute;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #151515;
+    margin-left: -555px;
+    margin-top: 1040px;
+}
+.mid p{
+    display: flex;
+    position: absolute;
+    margin-left: -555px;
+    margin-top: 1192px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    width: 223px;
+    height: 140px;
+    font-size: 22px;
+    line-height: 32px;
+    color: #444444;
+}
+.img .img3{
+    display: flex;
+    position: absolute;
+    margin-left: -80px;
+    margin-top: 980px;
+}
+.img .img3-1{
+    display: flex;
+    position: absolute;
+    visibility: hidden;
+}
+.img .img4{
+    display: flex;
+    position: absolute;
+    margin-left: -555px;
+    margin-top: 1410px;
+}
+.img .img4-1{
+    display: flex;
+    position: absolute;
+    visibility: hidden;
+}
+.img .img5{
+    display: flex;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 1410px;
+}
+.img .img5-1{
+    display: flex;
+    position: absolute;
+    visibility: hidden;
+}
+.img .img6{
+    display: flex;
+    position: absolute;
+    width: 445px;
+    height: 377px;
+    background-color: #151515;
+    margin-left: 110px;
+    margin-top: 1753px;
+}
+.img .img6 h2{
+    display: flex;
+    position: absolute;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-top: 65px;
+    margin-left: 48px;
+}
+.img .img6 p{
+    display: flex;
+    position: absolute;
+    margin-left: 48px;
+    margin-top: 217px;
+    color: #FFFFFF;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    width: 350px;
+    height: 96px;
+}
+.footer{
+    display: flex;
+    position: absolute;
+    width: 1440px;
+    height: 244px;
+    background: #151515;
+    margin-top: 4700px;
+}
+.footer h3{
+    display: flex;
+    position: absolute;
+    font-family: 'Big Shoulders Display';
+    color: #FFFFFF;
+    margin-left: 165px;
+    margin-top: 80px;
+}
+.footer p{
+    display: flex;
+    position: absolute;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-left: 465px;
+    margin-top: 80px;
+    width: 430px;
+    height: 84px;
+}
+.footer .socials{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    margin-left: 1175px;
+    margin-top: 80px;
+    gap: 20px;
+}
+.footer .socials .fb{
+    cursor: pointer;
+}
+.footer .socials .instagram{
+    cursor: pointer;
+}
+.footer .socials .twitter{
+    cursor: pointer;
+}
+
+/*--------Tablet----------*/
+@media screen and (max-width: 1116px){
+    .rec1{
+        visibility: hidden;
+    }
+    .rec2{
+        position: absolute;
+        width: 437px;
+        height: 700px;
+        margin-left: -380px;
+    }
+    .img1{
+        position: absolute;
+        margin-left: 30px;
+        width: 330px;
+        height: 120px;
+    }
+    .img2{
+        visibility: hidden;
+    }
+    .head p{
+        position: absolute;
+        font-size: 18px;
+        margin-left: 30px;
+        margin-top: 423px;
+        width: 339px;
+        height: 112px;
+    }
+    .btn{
+        display: flex;
+        position: absolute;
+        margin-left: -180px;
+        margin-top: 200px;
+    }
+    .text .mid h1{
+        display: flex;
+        position: absolute;
+        font-size: 50px;
+        margin-top: 856px;
+        margin-left: -340px;
+    }
+    .text .mid p{
+        position: absolute;
+        font-size: 18px;
+        margin-top: 1015px;
+        margin-left: -340px;
+        width: 343px;
+        height: 112px;
+    }
+    .img .img3{
+        display: flex;
+        width: 0px;
+        height: 200px;
+        visibility: hidden;
+    }
+    .img .img3-1{
+        visibility: visible;
+        width: 635px;
+        height: 350px;
+        margin-top: 820px;
+    }
+    .img .img4{
+        display: flex;
+        position: absolute;
+        visibility: hidden;
+    }
+    .img .img4-1{
+        display: flex;
+        position: absolute;
+        visibility: visible;
+        height: 720px;
+        margin-left: -350px;
+        margin-top: 1231px;
+    }
+    .img .img5{
+        position: absolute;
+        width: 100px;
+        height: 240px;
+        visibility: hidden;
+    }
+    .img .img5-1{
+        display: flex;
+        position: absolute;
+        visibility: visible;
+        height: 313px;
+        margin-top: 1231px;
+        margin-left: 68px;
+    }
+    .img .img6{
+        display: flex;
+        position: absolute;
+        width: 280px;
+        height: 396px;
+        margin-top: 1555px;
+        margin-left: 68px;
+    }
+    .img .img6 p{
+        width: 223px;
+        height: 112px;
+    }
+    .footer{
+        position: absolute;
+        width: 768px;
+    }
+    .footer h3{
+        position: absolute;
+        margin-left: 39px;
+        width: 110.05px;
+        height: 40px;
+    }
+    .footer p{
+        position: absolute;
+        font-size: 16px;
+        margin-left: 214px;
+        font-weight: 300;
+        line-height: 26px;
+        width: 300px;
+        height: 104px;
+        text-align: justify;
+    }
+    .footer .socials{
+        position: absolute;
+        margin-left: 628px;
+        line-height: 26px;
+    }
+}
+
+/*-----------Mobile--------*/
+@media screen and (max-width: 450px){
+    body{
+        width: 375px;
+        justify-content: center;
+        align-items: center;
+    }
+    .rec2 img{
+        position: absolute;
+        visibility: hidden;
+    }
+    .rec3{
+        position: absolute;
+        visibility: visible;
+        margin-left: -190px;
+    }
+    .img1{
+        position: absolute;
+        margin-left: -164px;
+        margin-top: 272px;
+    }
+    .head p{
+        position: absolute;
+        margin-left: -164px;
+    }
+    .btn .btn1{
+        position: absolute;
+        margin-left: 16px;
+    }
+    .btn .btn2{
+        position: absolute;
+        margin-left: 220px;
+    }
+    .mid{
+        display: flex;
+        position: absolute;
+        margin-top: 210px;
+        margin-left: 174px;
+        width: 343px;
+        height: 112px;
+    }
+    .img .img3-1{
+        position: absolute;
+        width: 635px;
+        height: 310px;
+        margin-top: 750px;
+        margin-left: -164px;
+    }
+    .img .img4-1{
+        position: absolute;
+        width: 343px;
+        height: 550px;
+        margin-top: 1350px;
+        margin-left: -164px;
+    }
+    .img .img5-1{
+        position: absolute;
+        width: 635px;
+        height: 340px;
+        margin-top: 1920px;
+        margin-left: -164px;
+    }
+    .img .img6{
+        display: flex;
+        position: absolute;
+        width: 305px;
+        height: 293px;
+        margin-top: 2280px;
+        margin-left: -164px;
+    }
+    .img .img6 h2{
+        position: absolute;
+        font-size: 50px;
+        width: 295px;
+        height: 90px;
+        margin-top: 46px;
+    }
+    .img .img6 p{
+        position: absolute;
+        font-size: 16px;
+        margin-top: 162px;
+    }
+    .footer{
+        display: flex;
+        position: absolute;
+        margin-top: 5700px;
+        width: 430px;
+        height: 336px;
+    }
+    .footer h3{
+        position: absolute;
+        width: 110.05px;
+        height: 40px;
+        margin-top: 48px;
+    }
+    .footer p{
+        position: absolute;
+        font-size: 16px;
+        width: 311px;
+        height: 104px;
+        margin-top: 126px;
+        margin-left: 40px;
+    }
+    .footer .socials{
+        position: absolute;
+        margin-top: 270.25px;
+        margin-left: 40px;
+    }
+}
